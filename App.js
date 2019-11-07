@@ -13,11 +13,11 @@ class HomeScreen extends React.Component {
         <Button
           title="Go to screen 2"
           color='blue'
-          onPress={()=>this.props.navigation.navigate('Screen2', {message: message})}/>
+          onPress={()=>this.props.navigation.push('Screen2', {message: message})}/>
         <Button
           title="Go to screen 3"
           color='blue'
-          onPress={()=>this.props.navigation.navigate('Screen3', {message: message})}/>
+          onPress={()=>this.props.navigation.push('Screen3', {message: message})}/>
         <Button
           title="Go Back"
           color='blue'
@@ -37,11 +37,11 @@ class SecondScreen extends React.Component {
         <Button
           title="Go Home"
           color='blue'
-          onPress={()=>this.props.navigation.navigate('Home', {message: message})}/>
+          onPress={()=>this.props.navigation.push('Home', {message: message})}/>
         <Button
           title="Go to screen 3"
           color='blue'
-          onPress={()=>this.props.navigation.navigate('Screen3', {message: message})}/>
+          onPress={()=>this.props.navigation.push('Screen3', {message: message})}/>
         <Button
           title="Go Back"
           color='blue'
@@ -61,11 +61,11 @@ class ThirdScreen extends React.Component {
         <Button
           title="Go Home"
           color='blue'
-          onPress={()=>this.props.navigation.navigate('Home', {message: message})}/>
+          onPress={()=>this.props.navigation.push('Home', {message: message})}/>
         <Button
           title="Go to screen 2"
           color='blue'
-          onPress={()=>this.props.navigation.navigate('Screen2', {message: message})}/>
+          onPress={()=>this.props.navigation.push('Screen2', {message: message})}/>
         <Button
           title="Go Back"
           color='blue'
